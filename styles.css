@@ -14,13 +14,76 @@
     background:  linear-gradient(var(--backgroundGradientVeryLight), var(--backgroundGradientLight)), url('images//bg-pattern-intro.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom 0 right 70%;
+    background-attachment: fixed;
+    background-position: bottom right 65%;
     border-radius: 0 0 0 6rem;
 }
 
+.navbar-brand{
+    font-size: 1.5rem !important;
+}
+
+.navbar-toggler:active, .navbar-toggler:focus{
+    border: 0 !important;
+    box-shadow: none !important;
+}
+
+.navbar-toggler-icon{
+    background: url('images/icon-hamburger.svg') no-repeat center / cover !important;
+}
+
+.navbar-collapse{
+    background-color: white !important;
+}
+
+.dropdown-toggle{
+    position: relative;
+}
+
+.dropdown-toggle::after{
+    color: var(--backgroundGradientVeryLight) !important;
+    transform: rotate(0);
+}
+
+.dropdown-toggle:active::after, .dropdown-toggle:focus::after{
+    transform: rotate(180deg);
+}
+
+.dropdown-menu{
+    background-color: lightgray !important;
+}
 
 .jumbotron{
     height: 75vh;
+}
+
+.title1{
+    width: 80%;
+}
+
+.startBtn{
+    background-color: white !important;
+    color: var(--backgroundGradientLight) !important;
+}
+
+.startBtn:hover{
+    background-color: var(--backgroundGradientLight) !important;
+    color: white !important;
+}
+
+.moreBtn{
+    background: transparent !important;
+    border-color: white !important;
+    color: white !important;
+}
+
+.moreBtn:hover{
+    background-color: white !important;
+    color: var(--backgroundGradientLight) !important;
+}
+
+.nextSection{
+    height: 15vh;
 }
 
 /* url('images//bg-pattern-intro.svg') no-repeat center / cover */

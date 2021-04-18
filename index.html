@@ -22,40 +22,46 @@
   </style>
 </head>
 <body>
-  <div class="container wrapper p-0">
+  <div class="container-fluid wrapper p-0">
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Blogr</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand text-white" href="#">Blogr</a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse mt-2 rounded-3 text-center" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
+                Products
               </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <ul class="dropdown-menu w-75 mx-auto border-0" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="#">Action</a></li>
                 <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item" href="#">Something else here</a></li>
               </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Company
+              </a>
+              <ul class="dropdown-menu w-75 mx-auto border-0" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Connect
+              </a>
+              <ul class="dropdown-menu w-75 mx-auto border-0" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Contact</a></li>
+                <li><a class="dropdown-item" href="#">Newletter</a></li>
+                <li><a class="dropdown-item" href="#">LinkedIn</a></li>
+              </ul>
             </li>
           </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
         </div>
       </div>
     </nav>
@@ -63,24 +69,27 @@
       <div class="container h-75 d-grid justify-content-center flex-column">
         <div class="row align-content-end">
           <div class="col">
-            <h1 class="text-center">A modern publishing platform</h1>
+            <h1 class="text-center mx-auto text-white fw-bold title1">A modern publishing platform</h1>
           </div>
         </div>
         <div class="row">
           <div class="col">
-            <h6>Grow your audience and build your online brand</h6>
+            <h6 class="text-center text-white w-75 mx-auto fw-light">Grow your audience and build your online brand</h6>
           </div>
         </div>
         <div class="row align-content-center">
           <div class="col text-center">
-            <button type="button" class="btn btn-primary">Start For Free</button>
+            <button type="button" class="btn btn-primary startBtn border-0 rounded-pill fw-bold">Start For Free</button>
           </div>
           <div class="col text-center">
-            <button type="button" class="btn btn-primary">Learn More</button>
+            <button type="button" class="btn btn-primary moreBtn rounded-pill fw-bold">Learn More</button>
           </div>
         </div>
       </div>
     </header>
+  </div>
+  <div class="container-fluid nextSection d-flex flex-column justify-content-end align-items-center mb-2">
+    <h4>Designed for the future</h4>
   </div>
   Product
 
@@ -160,7 +169,7 @@
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Blaine Young</a>.
   </div>
 
     <!-- BOOTSTRAP JS PLUGIN -->
