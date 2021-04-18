@@ -14,13 +14,13 @@
     background:  linear-gradient(var(--backgroundGradientVeryLight), var(--backgroundGradientLight)), url('images//bg-pattern-intro.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: right 85% bottom -60%;
+    background-position: bottom 0 right 70%;
     border-radius: 0 0 0 6rem;
 }
 
 
 .jumbotron{
-    height: 70vh;
+    height: 75vh;
 }
 
 /* url('images//bg-pattern-intro.svg') no-repeat center / cover */
