@@ -1,0 +1,26 @@
+:root{
+    --backgroundGradientVeryLight: hsl(13, 100%, 72%, 0.9);
+    --backgroundGradientLight: hsl(353, 100%, 62%, 0.9);
+    --textColor: white;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.wrapper{
+    background:  linear-gradient(var(--backgroundGradientVeryLight), var(--backgroundGradientLight)), url('images//bg-pattern-intro.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right 85% bottom -60%;
+    border-radius: 0 0 0 6rem;
+}
+
+
+.jumbotron{
+    height: 70vh;
+}
+
+/* url('images//bg-pattern-intro.svg') no-repeat center / cover */
