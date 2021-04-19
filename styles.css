@@ -55,6 +55,7 @@
 
 .dropdown-menu{
     background-color: lightgray !important;
+    color: var(--headingColor) !important;
 }
 
 .jumbotron{
@@ -130,6 +131,29 @@
     color: var(--footerColor);
 }
 
+@media only screen and (min-width: 600px){
+    .bgRow2{
+        background-size: 100%;
+    }
+}
+
+@media only screen and (min-width: 975px){
+    .bgRow2{
+        background-size: 80%;
+    }
+
+    .navbar-collapse{
+        background: transparent !important;
+    }
+
+    .nav-link{
+        color: white !important;
+    }
+
+    .dropdown-toggle::after{
+        color: white !important;
+    }
+}
 
 
 /* url('images//bg-pattern-intro.svg') no-repeat center / cover */
