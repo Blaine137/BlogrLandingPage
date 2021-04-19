@@ -1,6 +1,7 @@
 :root{
     --backgroundGradientVeryLight: hsl(13, 100%, 72%, 0.9);
     --backgroundGradientLight: hsl(353, 100%, 62%, 0.9);
+    --backgroundLightDark: hsl(207, 13%, 34%);
     --textColor: white;
 }
 
@@ -84,6 +85,31 @@
 
 .nextSection{
     height: 15vh;
+}
+
+.sectionThree{
+    height: 80vh;
+    position: relative;
+}
+
+.bgRow1, .bgRow2{
+    height: 50%;
+}
+
+.bgRow1{
+    background: url('images/illustration-phones.svg') no-repeat center / contain;
+    background-position: top 4rem;
+    z-index: 1;
+}
+
+.bgRow2{
+    background: url('images/bg-pattern-circles.svg') var(--backgroundLightDark) no-repeat center / 130%;
+    background-position-y: top -15rem;
+    z-index: -1;
+    position: absolute;
+    top: 10rem;
+    width: 100%;
+    border-radius: 0 2rem 0 2rem;
 }
 
 /* url('images//bg-pattern-intro.svg') no-repeat center / cover */
