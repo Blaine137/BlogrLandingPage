@@ -3,6 +3,9 @@
     --backgroundGradientLight: hsl(353, 100%, 62%, 0.9);
     --backgroundLightDark: hsl(207, 13%, 34%);
     --textColor: white;
+    --headingColor: hsl(208, 49%, 24%);
+    --footerColor: hsl(240, 2%, 79%);
+    --bgFooter: hsl(240, 10%, 16%);
 }
 
 *,
@@ -17,7 +20,7 @@
     background-size: cover;
     background-attachment: fixed;
     background-position: bottom right 65%;
-    border-radius: 0 0 0 6rem;
+    border-radius: 0 0 0 5rem;
 }
 
 .navbar-brand{
@@ -88,12 +91,12 @@
 }
 
 .sectionThree{
-    height: 80vh;
+    height: 75vh;
     position: relative;
 }
 
 .bgRow1, .bgRow2{
-    height: 50%;
+    height: 65%;
 }
 
 .bgRow1{
@@ -111,5 +114,22 @@
     width: 100%;
     border-radius: 0 2rem 0 2rem;
 }
+
+.subHeading{
+    color: var(--headingColor) !important;
+}
+
+.footer{
+    background-color: var(--bgFooter);
+    border-radius: 0 5rem 0 0;
+}
+
+.footerUL{
+    list-style: none;
+    padding: 0;
+    color: var(--footerColor);
+}
+
+
 
 /* url('images//bg-pattern-intro.svg') no-repeat center / cover */
