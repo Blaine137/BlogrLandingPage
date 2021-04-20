@@ -137,9 +137,38 @@
     }
 }
 
-@media only screen and (min-width: 975px){
+@media only screen and (min-width: 976px){
+    .title1{
+        width: 100%;
+    }
+
+    .secondSectionRow{
+        flex-direction: row-reverse;
+    }
+
+    .btnRow{
+        align-content: flex-start !important;
+    }
+
+    .bgRow1{
+        background-position-x: left;
+    }
+    
     .bgRow2{
-        background-size: 80%;
+        background-size: 65%;
+        background-position-x: left calc(-30rem + 20vw);
+        background-position-y: top calc(-15rem + 15vh);
+    }
+
+    .bgRow2 .col-12{
+        position: absolute;
+        top: 8rem;
+        right: 0;
+        width: 60%;
+    }
+
+    .bgRow2 h4{
+        width: 100% !important;
     }
 
     .navbar-collapse{
