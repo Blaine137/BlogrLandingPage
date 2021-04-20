@@ -167,6 +167,10 @@
         width: 60%;
     }
 
+    .editorIMG, .laptopIMG{
+        display: inline;
+    }
+
     .bgRow2 h4{
         width: 100% !important;
     }
