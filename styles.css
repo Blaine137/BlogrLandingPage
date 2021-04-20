@@ -182,7 +182,30 @@
     .dropdown-toggle::after{
         color: white !important;
     }
+
+    .sectionFourCol{
+        margin-left: auto;
+    }
+
+    .secondh6{
+        margin-bottom: 2rem !important;
+    }
+
+    .thirdh6{
+        margin-bottom: 2.5rem !important;
+    }
 }
 
+@media only screen and (min-width: 1195px){
+    .bgRow2{
+        background-position-x: left calc(-50rem + 20vw);
+    }
+}
+
+@media only screen and (min-width: 1204px){
+    .laptopP{
+        width: 50% !important;
+    }
+}
 
 /* url('images//bg-pattern-intro.svg') no-repeat center / cover */
