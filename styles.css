@@ -196,6 +196,12 @@
     }
 }
 
+@media only screen and (min-width: 1180px){
+    .sectionThreeP{
+        width: 50% !important;
+    }
+}
+
 @media only screen and (min-width: 1195px){
     .bgRow2{
         background-position-x: left calc(-50rem + 20vw);
