@@ -1,5 +1,7 @@
 # Frontend Mentor - Blogr landing page
 
+https://blaine137.github.io/BlogrLandingPage/
+
 ![Design preview for the Blogr landing page coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
